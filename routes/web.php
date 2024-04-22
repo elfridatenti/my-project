@@ -46,7 +46,7 @@ route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 
 // Dashboard Alumni
-route::get('/user/alumni', [DashboardAlumniController::class, 'index'])->name('alumni.index')->middleware('auth');
+route::get('/user/alumni', [DashboardAlumniController::class, 'index'])->name('alumni.beranda')->middleware('auth');
 
 route::get('/dashboard/alumni', [DashboardAdminController::class, 'alumni'])->name('dashboard.alumni.index')->middleware('auth');
 
