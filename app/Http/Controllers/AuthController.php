@@ -44,7 +44,7 @@ class AuthController extends Controller
                     return redirect('/login')->with('error', 'Email Anda Belum Diverifikasi!');
                 }
 
-                return redirect()->route('alumni.index');
+                return redirect()->route('alumni.beranda');
 
             } else {
 
