@@ -99,7 +99,7 @@
   </div>
   <div class="row justify-content-center" >
     <div class="col-md-12 text-center">
-      <a href="{{ route('alumni_index) }}" class="btn" style="margin-bottom: 80px;">Selanjutnya...</a>
+      <a href="{{ route('alumni_profile_index') }}" class="btn" style="margin-bottom: 80px;">Selanjutnya...</a>
     </div>
   </div>
 </section>
